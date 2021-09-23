@@ -1,20 +1,26 @@
 <template>
   <div id="app">
-    <UserList/>
+    <AttendingSubmit />
+
+    <hr />
+
+    <UserList />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import UserList from './components/UserList.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import AttendingSubmit from './components/AttendingSubmit.vue';
+import UserList from './components/UserList.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    UserList
-  }
-}
+    AttendingSubmit,
+    UserList,
+  },
+};
 </script>
 
 <style>
